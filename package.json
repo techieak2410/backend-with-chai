@@ -2,6 +2,7 @@
   "name": "backend-with-chai",
   "version": "1.0.0",
   "description": "Backend-with-Chai Learning",
+  "type": "module",
   "homepage": "https://github.com/techieak2410/backend-with-chai#readme",
   "bugs": {
     "url": "https://github.com/techieak2410/backend-with-chai/issues"
@@ -12,9 +13,11 @@
   },
   "license": "ISC",
   "author": "Ashish with Hitesh Sir",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
